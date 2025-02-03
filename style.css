@@ -1,0 +1,99 @@
+
+/* Reset basic styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and navigation styles */
+nav {
+    background-color: #4CAF50;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #FFD700;
+}
+
+/* Hero section */
+#hero {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+#hero button {
+    padding: 10px 20px;
+    background-color: #FFD700;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+#hero button:hover {
+    background-color: #FFA500;
+}
+
+/* Services section */
+#services {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+    background-color: #fff;
+}
+
+.service {
+    text-align: center;
+    width: 30%;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
